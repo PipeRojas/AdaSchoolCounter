@@ -48,7 +48,7 @@ class CounterInstrumentedTest {
         @JvmStatic
         fun enableAccessibilityChecks() {
             // TODO: uncomment to enable accessibility checks.
-            // AccessibilityChecks.enable()
+            AccessibilityChecks.enable().setRunChecksFromRootView(true)
         }
     }
 }
